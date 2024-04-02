@@ -1,7 +1,15 @@
-*CHAT BOT DE VOMUNICAÇÃO UNILATERAL*
+# CHAT BOT DE COMUNICAÇÃO UNILATERAL
 
-#INSTALAÇÃO:
-# 1 *INSTALE O `PHP` NA SUA MÁQUINA E O `COMPOSER` EM SEGUIDA USE O COMANDO ``php -S localhost:8080``*
-# 2 *FEITO ISSO O SERVIDOR ESTARA INICIADO... EM SEUIDA A CONFIGURAÇÃO DO BANCO DE DADOS*
-# 3 *INSTALE O SQL SERVER OU `XAMPP` OU ``WAMPP`` COM SQL SERVER PARA IPORTAR O BANCO DE DADOS MANUALMENTE*
-*NOME DO BANCO DE DADOS `chat_bot`*
+## INSTALAÇÃO:
+
+## 1. Instale o PHP na sua máquina e o Composer.
+## 2. Após a instalação, execute o seguinte comando para iniciar o servidor local:
+    ```
+    php -S localhost:8080
+    ```
+
+## 3. Feito isso, o servidor estará iniciado. Em seguida, é necessário configurar o banco de dados.
+## 4. Instale o SQL Server ou XAMPP ou WAMPP com SQL Server para importar o banco de dados manualmente.
+
+## 5. Nome do banco de dados: `chat_bot`.
+
