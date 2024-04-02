@@ -14,5 +14,6 @@
 ## 5. Nome do banco de dados:
 ```
 chat_bot 
-```.
-
+```
+## Preview:
+![Captura de Tela (247)](https://github.com/clementscompany/chat_bot_1.2/assets/130271950/4425e2ff-43b6-44b9-ba12-973740b8f7a2)
