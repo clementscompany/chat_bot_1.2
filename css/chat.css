@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'calibri', sans-serif;
+}
+:root{
+    --base:#1c1c1c;
+    --card:dodgerblue;
+    --branca:#ffff;
+    --shadow:#5c5c5c31;
+    --branca-2: #f0f0f0;
+    --background:#2e0886;
+}
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+.chatBox{
+    width: 400px;
+    padding: 22px;
+    margin: 0 auto;
+    box-shadow: 0 3px 2px var(--shadow);
+    border-radius: 6px;
+    background-color: var(--branca);
+}
+.topChat{
+    background-color: var(--card);
+    color: var(--branca);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 22px;
+    padding: 5px 22px;
+    border-radius: 6px;
+}
+.topChat > i{
+    font-size: 16pt;
+}
+.chatPlace{
+    background:var(--branca-2);
+    padding: 12px;
+    height: 350px;
+    border-radius: 6px;
+    margin: 12px auto;
+    overflow-y: auto;
+}
+.chatPlace::-webkit-scrollbar{
+    width: 0;
+}
+.caedMessage{
+    margin: 12px 0;
+    display: flex;
+}
+.incamming > span{
+    background-color: var(--card);
+    color: var(--branca);
+    max-width: calc(100% - 50px);
+    padding: 12px;
+    border-radius: 0 12px 12px 12px ;
+}
+.outgoing{
+    justify-content: flex-end;
+}
+.outgoing > span{
+    color: var(--branca);
+    max-width: calc(100% - 50px);
+    background-color: var(--base);
+    padding: 12px;
+    border-radius: 12px 12px 0 12px;
+}
+.formData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+.formData > input{
+    background-color: var(--branca-2);
+    flex: 1;
+    height: 33px;
+    border-radius: 6px;
+    padding: 3px 22px;
+}
+.formData > button{
+    background-color: var(--card);
+    color: var(--branca);
+    width: 60px;
+    height: 33px;
+    border-radius: 6px;
+}
+.error{
+    border: 1px solid #f76e6e6c;
+}
