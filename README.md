@@ -11,5 +11,8 @@
 ## 3. Feito isso, o servidor estará iniciado. Em seguida, é necessário configurar o banco de dados.
 ## 4. Instale o SQL Server ou XAMPP ou WAMPP com SQL Server para importar o banco de dados manualmente.
 
-## 5. Nome do banco de dados: `chat_bot`.
+## 5. Nome do banco de dados:
+```
+chat_bot 
+```.
 
