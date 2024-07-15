@@ -1,5 +1,4 @@
 function chatPlece(props){
-    console.log(props);
     let CardResponses = "";
     if (props.chatBot.error) {
         CardResponses += `
